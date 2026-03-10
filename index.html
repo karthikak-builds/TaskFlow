@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TaskFlow - Organize Your Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">TaskFlow</div>
+
+        <!-- Mobile Menu Button -->
+        <div class="menu-toggle" id="menuToggle">
+            ☰
+        </div>
+
+        <ul id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#app">Add Task</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION WITH APP -->
+    <section class="hero" id="app">
+        <h1 class="centered-text">Organize Your Tasks <br> Stay Productive</h1>
+        <p class="centered-text">Simple. Clean. Powerful task management for your daily life.</p>
+
+        <div class="container hero-app-container">
+            <div class="input-section">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <button id="addBtn">Add</button>
+            </div>
+
+            <ul id="taskList">
+                <!-- Tasks will appear here -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features" id="features">
+        <h2>Why Choose TaskFlow?</h2>
+
+        <div class="feature-box">
+            <div class="feature">
+                <h3>⚡ Fast</h3>
+                <p>Add and manage tasks instantly.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🎯 Simple</h3>
+                <p>Clean and distraction-free design.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📱 Responsive</h3>
+                <p>Works perfectly on all devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We'd love to hear from you.</p>
+
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>TaskFlow</h3>
+            <p>Organize your life. Boost your productivity.</p>
+
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#app">Add Task</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p>© 2026 TaskFlow. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
